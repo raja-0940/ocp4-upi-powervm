@@ -1,7 +1,7 @@
 ### PowerVC Details
 auth_url                    = "https://10.20.27.10:5000/v3/"
 user_name                   = "rajakumar.batulla@ibm.com"
-password                    = "1am@$upermaN9039" #<intranet password>
+password                    = "***" #<intranet password>
 tenant_name                 = "base-ocp"
 domain_name                 = "Default"
 openstack_availability_zone = "e980" #s1022
@@ -19,7 +19,7 @@ rhel_username                   = "root" #Set it to an appropriate username for 
 public_key_file                 = "data/id_ed25519.pub"
 private_key_file                = "data/id_ed25519"
 rhel_subscription_username      = "rhn-support-rbattula" #Leave this as-is if using CentOS as bastion image
-rhel_subscription_password      = "K@mala@094090139039" #Leave this as-is if using CentOS as bastion image
+rhel_subscription_password      = "***" #Leave this as-is if using CentOS as bastion image
 rhel_subscription_org           = ""                # Define it only when using activationkey for RHEL subscription
 rhel_subscription_activationkey = ""                # Define it only when using activationkey for RHEL subscription
 
